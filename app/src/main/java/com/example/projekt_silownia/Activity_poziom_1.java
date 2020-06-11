@@ -54,11 +54,11 @@ public class Activity_poziom_1 extends AppCompatActivity
                 View view= super.getView(position,convertView,parent);
                 if(position%2==1)
                 {
-                    view.setBackgroundColor(getResources().getColor(android.R.color.holo_green_dark));
+                    view.setBackgroundColor(getResources().getColor(android.R.color.holo_orange_light));
                 }
                 else
                 {
-                    view.setBackgroundColor(getResources().getColor(android.R.color.holo_blue_bright));
+                    view.setBackgroundColor(getResources().getColor(android.R.color.holo_orange_dark));
                 }
                 return view;
             }
